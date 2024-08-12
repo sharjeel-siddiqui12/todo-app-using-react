@@ -7,7 +7,7 @@
     background: linear-gradient(135deg, #8941cc, #440a5e);
     color: #fff;
     width: 100%;
-    position: fixed; /* Ensure footer is not fixed */
+    position: fixed; 
     bottom: 0;
     left: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);

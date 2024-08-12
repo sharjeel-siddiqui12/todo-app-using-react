@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import TodoApp from './components/TodoApp'; // Assuming this is your Todo app
-import Login from './components/Login'; // Assuming this is your login page
+import TodoApp from './components/TodoApp'; 
+import Login from './components/Login'; 
 import Signup from './components/Signup';
 import Footer from './components/Footer';
 
