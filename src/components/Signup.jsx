@@ -1,4 +1,3 @@
-// Signup.jsx
 import React, { useState } from 'react';
 import './Signup.css';
 
@@ -17,8 +16,25 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    if (formData.password !== formData.confirmPassword) {
+      alert("Passwords do not match");
+      return;
+    }
+    
     // Handle form submission logic here
     console.log('Form data submitted:', formData);
+
+    // Display success alert
+    alert('Signup successful!');
+    
+    // Optionally, you can reset the form
+    setFormData({
+      name: '',
+      email: '',
+      password: '',
+      confirmPassword: ''
+    });
   };
 
   return (
