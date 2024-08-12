@@ -37,17 +37,20 @@ const Login = () => {
         <div className="input-group">
           <label htmlFor="email">Email</label>
           <input
+            placeholder='example@gmail.com'
             type="email"
             id="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
             required
+            
           />
         </div>
         <div className="input-group">
           <label htmlFor="password">Password</label>
           <input
+            placeholder='password'
             type="password"
             id="password"
             name="password"

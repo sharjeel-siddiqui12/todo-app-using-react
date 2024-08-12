@@ -46,6 +46,7 @@ const Signup = () => {
         <div className="input-group">
           <label htmlFor="name">Name</label>
           <input
+            placeholder='Example'
             type="text"
             id="name"
             name="name"
@@ -57,6 +58,7 @@ const Signup = () => {
         <div className="input-group">
           <label htmlFor="email">Email</label>
           <input
+            placeholder='example@gmail.com'
             type="email"
             id="email"
             name="email"
@@ -68,6 +70,7 @@ const Signup = () => {
         <div className="input-group">
           <label htmlFor="password">Password</label>
           <input
+            placeholder='password'
             type="password"
             id="password"
             name="password"
@@ -79,6 +82,7 @@ const Signup = () => {
         <div className="input-group">
           <label htmlFor="confirmPassword">Confirm Password</label>
           <input
+            placeholder='password'
             type="password"
             id="confirmPassword"
             name="confirmPassword"
