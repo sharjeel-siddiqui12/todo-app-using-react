@@ -286,10 +286,11 @@ body {
 .c-cb > label::before,
 .c-cb > input[type="checkbox"] {
   box-sizing: border-box;
-  height: 44px;
-  left: -2px;
-  top: -2px;
-  width: 44px;
+  border-radius: 50%;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+  width: 30px;
   
 }
 .c-cb > input[type="checkbox"] {
