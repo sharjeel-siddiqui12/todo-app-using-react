@@ -23,9 +23,20 @@ To run this project locally, follow these steps:
     ```bash
     cd todo-app-using-react
     ```
-3. Install the dependencies: `bash npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit `http://localhost:3000` to access the Todo App.
+3. Install the dependencies: 
+    ```bash 
+    npm install
+    ```
+4. Start the development server: 
+    ```bash
+    npm run dev
+    ```
+5. Open your browser and visit `http://localhost:5173/` to access the Todo App.
+
+## Screenshots
+<img align="center" alt="readme_image" src="/src/assets/readme_images/ss1.png" />
+<img align="center" alt="readme_image" src="/src/assets/readme_images/ss2.png" />
+<img align="center" alt="readme_image" src="/src/assets/readme_images/ss3.png" />
 
 ## Usage
 
